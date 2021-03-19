@@ -28,10 +28,11 @@
 </section>
 <section>
 	<h2>Projects</h2>
-	<ul>
-		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener"><span role="img" title="Dog">&#x1F415;</span>&nbsp;Dog&nbsp;Safe&nbsp;Foods</a></li>
-		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener"><span role="img" title="Cat">&#x1F408;</span>&nbsp;Cat&nbsp;Safe&nbsp;Foods</a></li>
-		<li><a href="https://simplepwa.com" target="_blank" rel="noopener"><span role="img" title="Technologist">&#x1F469;&#x200D;&#x1F4BB;</span>&nbsp;Simple&nbsp;PWA</a></li>
+	<ul class="projects">
+		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Dog">&#x1F415;</span>&nbsp;Dog&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/dogsafefoods" target="_blank" rel="noopener" title="Dog Safe Foods Github" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Cat">&#x1F408;</span>&nbsp;Cat&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/catsafefoods" target="_blank" rel="noopener" title="Cat Safe Foods Github" class="icon icon-github"><i class="fab fa-github"></i></a>
+		</li>
+		<li><a href="https://simplepwa.com" target="_blank" rel="noopener" title="Simple PWA Website"><span role="img" title="Technologist">&#x1F469;&#x200D;&#x1F4BB;</span>&nbsp;Simple&nbsp;PWA</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener" title="Simple PWA Github" class="icon icon-github"><i class="fab fa-github"></i></a></li>
 		<li><a href="https://dev.nicolefurlan.com" target="_blank" rel="noopener"><span role="img" title="Email">&#x1F4E7;</span>&nbsp;Gmail&nbsp; Analyzed</a> (in progress)</li>
 	</ul>
 </section>

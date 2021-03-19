@@ -1,10 +1,10 @@
 @use "../pwa-generator/files/common" as * with (
 	$font-heading: "Playfair Display",
 	$font-body: "Raleway",
-	$color-main: #77BBBB,
-	$color-main-dark: #208985,
-	$color-accent: #CE8DB5,
-	$color-accent-dark: #9B648B
+	$color-main: #92D7DA,
+	$color-main-dark: #489094,
+	$color-accent: #FA96C0,
+	$color-accent-dark: #B34F78
 );
 
 .skills,
@@ -28,5 +28,11 @@
 
 	@media (min-width: $media-desktop-large) {
 		grid-template-rows: repeat(8, 1fr);
+	}
+}
+
+.projects {
+	a i {
+		font-size: initial;
 	}
 }
