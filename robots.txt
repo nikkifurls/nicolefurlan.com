@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.git
+Disallow: /.gitignore
+Allow: /
+
+Sitemap: https://nicolefurlan.com/sitemap.xml

@@ -1,0 +1,32 @@
+@use "../pwa-generator/files/common" as * with (
+	$font-heading: "Playfair Display",
+	$font-body: "Raleway",
+	$color-main: #77BBBB,
+	$color-main-dark: #208985,
+	$color-accent: #CE8DB5,
+	$color-accent-dark: #9B648B
+);
+
+.skills,
+.experience {
+	li {
+		margin: 0;
+		text-align: left;
+	}
+}
+
+.skills {
+	font-weight: $font-bold;
+	text-align: left;
+
+	@media (min-width: $media-tablet) {
+		display: grid;
+		gap: 0 $space-xsuper;
+		grid-auto-flow: column;
+		grid-template-rows: repeat(12, 1fr);
+	}
+
+	@media (min-width: $media-desktop-large) {
+		grid-template-rows: repeat(8, 1fr);
+	}
+}
