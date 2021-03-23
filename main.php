@@ -13,7 +13,7 @@
 		<li>MySQL</li>
 		<li>phpMyAdmin</li>
 		<li>APIs</li>
-		<li>Wordpress</li>
+		<li>WordPress</li>
 		<li>CMS Development</li>
 		<li>Static/JAMstack Websites</li>
 		<li>Progressive Web Apps</li>
@@ -29,10 +29,10 @@
 <section>
 	<h2>Projects</h2>
 	<ul class="projects">
-		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Dog">&#x1F415;</span>&nbsp;Dog&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/dogsafefoods" target="_blank" rel="noopener" title="Dog Safe Foods Github" class="icon icon-github"><i class="fab fa-github"></i></a></li>
-		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Cat">&#x1F408;</span>&nbsp;Cat&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/catsafefoods" target="_blank" rel="noopener" title="Cat Safe Foods Github" class="icon icon-github"><i class="fab fa-github"></i></a>
+		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Dog">&#x1F415;</span>&nbsp;Dog&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/dogsafefoods" target="_blank" rel="noopener" title="Dog Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Cat">&#x1F408;</span>&nbsp;Cat&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/catsafefoods" target="_blank" rel="noopener" title="Cat Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a>
 		</li>
-		<li><a href="https://simplepwa.com" target="_blank" rel="noopener" title="Simple PWA Website"><span role="img" title="Technologist">&#x1F469;&#x200D;&#x1F4BB;</span>&nbsp;Simple&nbsp;PWA</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener" title="Simple PWA Github" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://simplepwa.com" target="_blank" rel="noopener" title="Simple PWA Website"><span role="img" title="Technologist">&#x1F469;&#x200D;&#x1F4BB;</span>&nbsp;Simple&nbsp;PWA</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener" title="Simple PWA GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
 		<li><a href="https://dev.nicolefurlan.com" target="_blank" rel="noopener"><span role="img" title="Email">&#x1F4E7;</span>&nbsp;Gmail&nbsp; Analyzed</a> (in progress)</li>
 	</ul>
 </section>
@@ -69,7 +69,7 @@
 				<ul>
 					<li>Communicated with other departments and developed software solutions to address their technical needs</li>
 					<li>Advised and guided the organization on higher-level technical functionality and planning</li>
-					<li>Assisted with creating, updating, and fixing issues with websites and web applications written in HTML, CSS, Javascript, PHP, and MySQL including a large existing codebase with minimal documentation</li>
+					<li>Assisted with creating, updating, and fixing issues with websites and web applications written in HTML, CSS, JavaScript, PHP, and MySQL including a large existing codebase with minimal documentation</li>
 					<li>Assisted in creating and maintaining a large library of technical documentation for both technical and non-technical staff members</li>
 					<li>Used Git for code version control and managed large code base with multiple users</li>
 					<li>Built team of three developers, including analyzing team needs, creating job postings, interviewing candidates, and selecting new hires</li>
@@ -82,7 +82,7 @@
 			<details>
 				<summary><span class="bold">Web Developer (2015-2016)</span></summary>
 				<ul>
-					<li>Created, updated, and fixed issues with websites and applications written in HTML, CSS, Javascript, PHP, and MySQL</li>
+					<li>Created, updated, and fixed issues with websites and applications written in HTML, CSS, JavaScript, PHP, and MySQL</li>
 					<li>Used Git for code version control</li>
 					<li>Created technical documentation for both technical and non-technical staff members</li>
 					<li>Kept on top of new trends for websites and web applications</li>
@@ -100,8 +100,8 @@
 			<details>
 				<summary><span class="bold">Web Developer</span>&nbsp;<span class="italic">(2013)</span>, <span class="bold">Director of Technology</span>&nbsp;<span class="italic">(2013-2015)</span></summary>
 				<ul>
-					<li>Developed and maintained WordPress themes, plugins, and 3rd party integrations in HTML, CSS, Javascript, PHP, and MySQL</li>
-					<li>Migrated several websites to Wordpress with the goal of non-technical staff maintainability</li>
+					<li>Developed and maintained WordPress themes, plugins, and 3rd party integrations in HTML, CSS, JavaScript, PHP, and MySQL</li>
+					<li>Migrated several websites to WordPress with the goal of non-technical staff maintainability</li>
 					<li>Built and maintained a secure and reliable Linux server with Apache, MySQL, and PHP (LAMP), which hosted a large number of websites</li>
 					<li>Set up and used Git for code version control</li>
 					<li>Developed graphics using Adobe Photoshop upon request</li>
@@ -110,7 +110,7 @@
 					<li>Coordinated and/or assisted with other projects as determined</li>
 					<li>Designed and sent out newsletters using Mailchimp</li>
 					<li>Set up tracking on websites including Google Search Console, Google Analytics, and Google Adwords</li>
-					<li>Contributed to strategies for driving traffic to websites, including writing blog articles as time allows</li>
+					<li>Contributed to strategies for driving traffic to websites, including writing blog articles as time allowed</li>
 					<li>Continuously searched for ways to improve websites</li>
 				</ul>
 			</details>
