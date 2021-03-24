@@ -1,4 +1,4 @@
-const cacheName = "cache121";
+const cacheName = "cache122";
 const cacheFiles = [
 	"/",
 	"common.js",
@@ -63,7 +63,7 @@ const cacheFiles = [
 	"apple-touch-icon-72x72.png", // Apple iPad, Non-retina with iOS6 or prior
 	"apple-touch-icon-76x76.png", // Apple iPad, Non-retina with iOS7
 	"apple-touch-icon-114x114.png", // Apple iPhone, Retina with iOS6 or prior
-	"apple-touch-icon-121x121.png", // Apple iPhone, Retina with iOS7
+	"apple-touch-icon-120x120.png", // Apple iPhone, Retina with iOS7
 	"apple-touch-icon-144x144.png", // Apple iPad, Retina with iOS6 or prior
 	"apple-touch-icon-152x152.png", // Apple iPad, Retina with iOS7
 	"apple-touch-icon-180x180.png", // Apple iPhone 6 Plus with iOS8
