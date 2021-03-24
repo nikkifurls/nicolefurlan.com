@@ -1,4 +1,17 @@
 <section>
+	<p>I am currently looking for a new role where I can focus on the complex technical work that I enjoy. Please contact me at <a href="mailto:info@nicolefurlan.com" target="_blank" title="Email">info@nicolefurlan.com</a> with any opportunities.</p>
+</section>
+<section>
+	<h2>Projects</h2>
+	<ul class="projects">
+		<li><b>PWA&nbsp;Generator</b>:&nbsp;a static site generator that builds and deploys Progressive Web Apps to Netlify&nbsp;<i>(in progress)</i>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/pwa-generator" target="_blank" rel="noopener" title="PWA Generator GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website">Dog&nbsp;Safe&nbsp;Foods</a>:&nbsp;a Progressive Web App that allows you to instantly determine whether a certain food is safe for dogs to consume&nbsp;&nbsp;<a href="https://github.com/nikkifurls/dogsafefoods" target="_blank" rel="noopener" title="Dog Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener" title="Cat Safe Foods Website">Cat&nbsp;Safe&nbsp;Foods</a>:&nbsp;a Progressive Web App that allows you to instantly determine whether a certain food is safe for cats to consume&nbsp;&nbsp;<a href="https://github.com/nikkifurls/catsafefoods" target="_blank" rel="noopener" title="Cat Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://simplepwa.com" target="_blank" rel="noopener" title="Simple PWA Website">Simple&nbsp;PWA</a>:&nbsp;a Progressive Web App template that provides the minimum file structure needed to create a PWA&nbsp;&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener" title="Simple PWA GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+		<li><a href="https://dev.nicolefurlan.com" target="_blank" rel="noopener" title="Gmail Analyzed Website">Gmail&nbsp;Analyzed</a>:&nbsp;a Progressive Web App that analyzes your inbox and provides a list of the email senders that are clogging it up&nbsp;<i>(in progress)</i>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/gmailanalyzed" target="_blank" rel="noopener" title="Gmail Analyzed GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
+	</ul>
+</section>
+<section>
 	<h2>Skills</h2>
 	<ul class="skills">
 		<li>HTML</li>
@@ -24,16 +37,6 @@
 		<li>Google AdSense</li>
 		<li>Google Optimize</li>
 		<li>Adobe Creative Cloud</li>
-	</ul>
-</section>
-<section>
-	<h2>Projects</h2>
-	<ul class="projects">
-		<li><a href="https://dogsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Dog">&#x1F415;</span>&nbsp;Dog&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/dogsafefoods" target="_blank" rel="noopener" title="Dog Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
-		<li><a href="https://catsafefoods.com" target="_blank" rel="noopener" title="Dog Safe Foods Website"><span role="img" title="Cat">&#x1F408;</span>&nbsp;Cat&nbsp;Safe&nbsp;Foods</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/catsafefoods" target="_blank" rel="noopener" title="Cat Safe Foods GitHub" class="icon icon-github"><i class="fab fa-github"></i></a>
-		</li>
-		<li><a href="https://simplepwa.com" target="_blank" rel="noopener" title="Simple PWA Website"><span role="img" title="Technologist">&#x1F469;&#x200D;&#x1F4BB;</span>&nbsp;Simple&nbsp;PWA</a>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/simple-pwa" target="_blank" rel="noopener" title="Simple PWA GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
-		<li><a href="https://dev.nicolefurlan.com" target="_blank" rel="noopener"><span role="img" title="Email">&#x1F4E7;</span>&nbsp;Gmail&nbsp; Analyzed</a> (in progress)</li>
 	</ul>
 </section>
 <section>
