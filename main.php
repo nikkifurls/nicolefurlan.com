@@ -1,7 +1,4 @@
 <section>
-	<p>I am currently looking for a new role where I can focus on the complex technical work that I enjoy. Please contact me at <a href="mailto:info@nicolefurlan.com" target="_blank" title="Email">info@nicolefurlan.com</a> with any opportunities.</p>
-</section>
-<section>
 	<h2>Projects</h2>
 	<ul class="projects">
 		<li><b>PWA&nbsp;Generator</b>:&nbsp;a static site generator that builds and deploys Progressive Web Apps to Netlify&nbsp;<i>(in progress)</i>&nbsp;&nbsp;<a href="https://github.com/nikkifurls/pwagenerator" target="_blank" rel="noopener" title="PWA Generator GitHub" class="icon icon-github"><i class="fab fa-github"></i></a></li>
