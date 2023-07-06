@@ -7,6 +7,11 @@
 	$color-accent-dark: #B34F78
 );
 
+h3, h4, h5 {
+	color: inherit;
+	font-family: $font-body;
+}
+
 .skills,
 .experience {
 	li {
@@ -28,6 +33,28 @@
 
 	@media (min-width: $media-desktop-large) {
 		grid-template-rows: repeat(8, 1fr);
+	}
+}
+
+.education,
+.experience {
+	&-item {
+		margin: $space-medium auto;
+		
+		&:not(:last-of-type) {
+			padding-bottom: $space-small;
+			border-bottom: 1px solid $color-accent-dark;
+		}
+	}
+}
+
+.experience-item {
+	a {
+		display: inline-block;
+	}
+
+	h3 {
+		margin: 0;
 	}
 }
 
