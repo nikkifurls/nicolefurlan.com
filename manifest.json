@@ -1,7 +1,7 @@
 {
     "name": "Nicole Furlan",
     "short_name": "Nicole Furlan",
-    "description": "Full stack web developer on a pursuit of equality, compassion, and justice for all.",
+    "description": "Software engineer on a pursuit of equality, compassion, and justice for all.",
     "display": "standalone",
     "start_url": "./",
     "scope": ".",
