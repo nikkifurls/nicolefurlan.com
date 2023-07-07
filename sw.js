@@ -1,4 +1,4 @@
-const cacheName = "cache130";
+const cacheName = "cache132";
 const cacheFiles = [
 	"/",
 	"common.js",
@@ -10,7 +10,7 @@ const cacheFiles = [
 	"logo_nav.svg",
 	"style.css",
 	"posts.json",
-	"background.jpg",
+	"background.webp",
 	"psychopaths-are-ruining-everything.html",
 	"psychopaths-are-ruining-everything.jpg",
 	"united-states-hurdle-to-universal-basic-income.html",
