@@ -1,0 +1,8 @@
+{
+	"name": "nicolefurlan.com",
+	"version": "136",
+	"description": "Software engineer on a pursuit of equality, compassion, and justice for all.",
+	"dependencies": {
+		"ts-loader": "^9.4.4"
+	}
+}
