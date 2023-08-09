@@ -5,6 +5,7 @@ declare global {
 		baseUrl: string;
 		baseTitle: string;
 		baseDescription: string;
+		gtag: any;
 	}
 }
 
@@ -21,20 +22,20 @@ export const copyUrl = (url: string = window.location.href): void => {
 	if (navigator.clipboard) {
 		navigator.clipboard.writeText(url)
 			.then(() => {
-				showNotification(`<span class='bold'>Success! <span role='img' title='Party' class='icon icon-partyface'>🥳</span></span> URL copied to clipboard: <span class='url'>${url}</span>`);
+				showNotification(`<span><strong>Success! <span role='img' title='Party' class='icon icon-partyface'>🥳</span></strong> URL copied to clipboard: <span class='url'>${url}</span>`);
 			})
 			.catch(() => {
-				showNotification(`<span class='bold'>Copy URL:</span> <span class='url'>${url}</span>`);
+				showNotification(`<span><strong>Copy URL:</strong></span> <span class='url'>${url}</span>`);
 			});
 
 	} else {
-		showNotification(`<span class='bold'>Copy URL:</span> <span class='url'>${url}</span>`);
+		showNotification(`<span><strong>Copy URL:</strong></span> <span class='url'>${url}</span>`);
 	}
 
-	// @todo: Send copy event to GA.
-	// gtag('event', 'select_content', {
-	// 	item_id: url,
-	// });
+	// Send copy event to GA.
+	window.gtag('event', 'select_content', {
+		item_id: url,
+	});
 }
 
 /**
@@ -54,14 +55,13 @@ export const shareUrl = (url: string = window.location.href, title: string = win
 			`<a class='button twitter' href='https://twitter.com/intent/tweet?text=${textEncoded}' title='Share on Twitter'><i class='fas fa-share-alt'></i>&nbsp;&nbsp;Twitter</a>` +
 			`<a class='button email' href='mailto:?subject=Check+out+${title}!&body=${textEncoded}' title='Share on Email'><i class='fas fa-share-alt'></i>&nbsp;&nbsp;Email</a>` +
 			`<a class='button copy' href='#' title='Copy' data-url='${url}'><i class='fas fa-copy'></i>&nbsp;&nbsp;Copy</button>`,
-			'notification-share'
 		);
 	}
 
-	// @todo: Send share event to GA.
-	// gtag('event', 'share', {
-	// 	content_id: url,
-	// });
+	// Send share event to GA.
+	window.gtag('event', 'share', {
+		content_id: url,
+	});
 }
 
 /**

@@ -121,7 +121,7 @@ export const closeNotification = (): void => {
 export const showPromo = (cookieName: string, notificationTextContainer: string = '', customIcon: string = ''): void => {
 
 	if (!cookieName) {
-		if (window.window.baseTitle) {
+		if (window.baseTitle) {
 			cookieName = `cookie-${window.baseTitle.toLowerCase()}`;
 		} else {
 			cookieName = `cookie-default`;
