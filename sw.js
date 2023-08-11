@@ -1,4 +1,4 @@
-const cacheName = "cache136";
+const cacheName = "cache139";
 const cacheFiles = [
 	"/",
 	"manifest.json",
