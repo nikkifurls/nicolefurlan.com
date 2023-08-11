@@ -17,7 +17,7 @@ export const showNotification = (text: string, cookieName: string = '', classNam
 
 	new Promise((resolve, reject) => {
 
-		const notificationContainer = <HTMLElement>document.querySelector('.notification');
+		const notificationContainer = <HTMLDialogElement>document.querySelector('.notification');
 		const notificationTextContainer = <HTMLElement>document.querySelector('.notification p');
 		const notificationCloseContainer = <HTMLElement>document.querySelector('.notification .close');
 
@@ -58,19 +58,20 @@ export const showNotification = (text: string, cookieName: string = '', classNam
 		}
 
 		// Display notification.
-		notificationContainer.setAttribute('aria-hidden', 'false');
-		notificationContainer.style.display = 'block';
+		notificationContainer.show();
+		// notificationContainer.setAttribute('aria-hidden', 'false');
+		// notificationContainer.style.display = 'block';
 
 		// Resolve promise.
 		resolve(true);
 	})
-	.then(result => {
+	.then((result) => {
 		if (result) {
 			// Set event listeners for any event links in notification.
 			setLinkEventListeners();
 		}
 	})
-	.catch(error => {
+	.catch((error) => {
 		console.error(error);
 	});
 }
@@ -80,14 +81,15 @@ export const showNotification = (text: string, cookieName: string = '', classNam
  */
 export const closeNotification = (): void => {
 
-	const notificationContainer = <HTMLElement>document.querySelector('.notification');
+	const notificationContainer = <HTMLDialogElement>document.querySelector('.notification');
 
 	if (!notificationContainer) {
 		return;
 	}
 
-	notificationContainer.style.display = 'none';
-	notificationContainer.setAttribute('aria-hidden', 'true');
+	notificationContainer.close();
+	// notificationContainer.style.display = 'none';
+	// notificationContainer.setAttribute('aria-hidden', 'true');
 	
 	// If notification has class data attribute set, remove class after closing.
 	if (notificationContainer.dataset.class) {

@@ -1,13 +1,14 @@
 const cacheName = "cache136";
 const cacheFiles = [
 	"/",
-	"disclaimer.html",
+	"manifest.json",
+	"posts.json",
+	"img/background.webp",
 	"img/logo_nav.svg",
 	"index.html",
-	"manifest.json",
+	"disclaimer.html",
 	"privacy-policy.html",
 	"terms-and-conditions.html",
-	"posts.json",
 	"psychopaths-are-ruining-everything.html",
 	"img/psychopaths-are-ruining-everything.jpg",
 	"united-states-hurdle-to-universal-basic-income.html",
@@ -45,7 +46,7 @@ const cacheFiles = [
 	"fonts/fontawesome/webfonts/fa-solid-900.ttf",
 	"fonts/fontawesome/webfonts/fa-solid-900.woff",
 	"fonts/fontawesome/webfonts/fa-solid-900.woff2",
-	"js/bundle.ca26e3f61b33b05cfb76.js",
+	"js/bundle.d6a99408f01a39ba8f02.js",
 	"img/android-chrome-36x36.png", // Favicon, Android Chrome M39+ with 0.75 screen density
 	"img/android-chrome-48x48.png", // Favicon, Android Chrome M39+ with 1.0 screen density
 	"img/android-chrome-72x72.png", // Favicon, Android Chrome M39+ with 1.5 screen density

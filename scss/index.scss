@@ -652,7 +652,6 @@ img {
 */
 .notification {
 	background-color: var(--color-gray-med);
-	border-top: var(--space-border) solid var(--color-gray-light);
 	bottom: 0;
 	color: var(--color-white);
 	display: none;
@@ -660,7 +659,12 @@ img {
 	@include layout.padding-default(var(--space-small));
 	position: fixed;
 	right: 0;
+	width: 100%;
 	z-index: 999;
+
+	&[open] {
+		display: block;
+	}
 
 	&.notification-share {
 		p {
