@@ -317,6 +317,7 @@ section {
 
 		.social {
 			@extend .container-scrollable;
+			justify-content: center;
 			
 			@media (min-width: layout.$media-desktop) {
 				align-items: center;

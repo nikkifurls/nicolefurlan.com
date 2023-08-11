@@ -1,6 +1,6 @@
 {
 	"name": "nicolefurlan.com",
-	"version": "138",
+	"version": "139",
 	"description": "Software engineer on a pursuit of equality, compassion, and justice for all.",
 	"scripts": {
 		"build": "webpack --mode production"
