@@ -59,8 +59,7 @@ export const showNotification = (text: string, cookieName: string = '', classNam
 
 		// Display notification.
 		notificationContainer.show();
-		// notificationContainer.setAttribute('aria-hidden', 'false');
-		// notificationContainer.style.display = 'block';
+		notificationContainer.setAttribute('aria-hidden', 'false');
 
 		// Resolve promise.
 		resolve(true);
@@ -88,8 +87,7 @@ export const closeNotification = (): void => {
 	}
 
 	notificationContainer.close();
-	// notificationContainer.style.display = 'none';
-	// notificationContainer.setAttribute('aria-hidden', 'true');
+	notificationContainer.setAttribute('aria-hidden', 'true');
 	
 	// If notification has class data attribute set, remove class after closing.
 	if (notificationContainer.dataset.class) {

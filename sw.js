@@ -1,4 +1,4 @@
-const cacheName = "cache140";
+const cacheName = "cache141";
 const cacheFiles = [
 	"/",
 	"manifest.json",
@@ -46,7 +46,7 @@ const cacheFiles = [
 	"fonts/fontawesome/webfonts/fa-solid-900.ttf",
 	"fonts/fontawesome/webfonts/fa-solid-900.woff",
 	"fonts/fontawesome/webfonts/fa-solid-900.woff2",
-	"js/bundle.e15ad690c594bcc8344b.js",
+	"js/bundle.e6ed8b4260e5eddfe939.js",
 	"img/android-chrome-36x36.png", // Favicon, Android Chrome M39+ with 0.75 screen density
 	"img/android-chrome-48x48.png", // Favicon, Android Chrome M39+ with 1.0 screen density
 	"img/android-chrome-72x72.png", // Favicon, Android Chrome M39+ with 1.5 screen density
